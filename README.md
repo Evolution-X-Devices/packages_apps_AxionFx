@@ -2,6 +2,19 @@
 
 ## Usage
 
+Add this repo to your device's `evolution.dependencies`
+
+```  
+{
+    "repository"  : "Evolution-X-devices/packages_apps_AxionFx",
+    "remote"      : "github-non-los",
+    "branch"      : "cnb",
+    "target_path" : "packages/apps/AxionFx"
+}
+```
+
+<br>
+
 Include in your `device.mk`
 ```
 $(call inherit-product, packages/apps/AxionFx/config.mk)
